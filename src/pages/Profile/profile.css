@@ -1,0 +1,36 @@
+.profile {
+  /* -webkit-box-shadow: -1px 3px 52px -19px rgba(117, 113, 117, 0.84);
+    -moz-box-shadow: -1px 3px 52px -19px rgba(117, 113, 117, 0.84);
+    box-shadow: -1px 3px 52px -19px #757175d6; */
+  padding: 10px;
+  margin: 25px;
+  border-radius: 5px;
+  /* border: 0.5px solid lightgray; */
+  display: flex;
+  background-color: #121212;
+}
+.information {
+  margin: auto;
+}
+.label {
+  font-size: 18px;
+  font-weight: 500;
+  width: 250px;
+}
+
+.name {
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+.avatar {
+  height: 100px;
+  width: 100px;
+  border-radius: 15%;
+  border: none;
+  align-items: center;
+}
+.ant-table-thead .ant-table-cell {
+  background-color: rgb(15, 15, 15);
+  color: white;
+}
